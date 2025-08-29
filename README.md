@@ -24,7 +24,7 @@ Several metrics of interest (time-to-solution, energy-to-solution, FVOPS, etc) w
 - [HWTrack.ipynb](HWTrack.ipynb): Jupyter notebook used to analyse hardware track submissions
 - [SWTrack.ipynb](SWTrack.ipynb): Jupyter notebook used to analyse software track submissions
 - [IO.ipynb](IO.ipynb): Jupyter notebook used to analyse submissions of I/O optimizations
-- [Interactive.ipynb](Interactive.ipynb): Jupyter notebook providing an interactive plot for custom data analysis
+- [Interactive.ipynb](Interactive.ipynb): Jupyter notebook providing an interactive plot for custom data analysis, [click for demonstration](https://colab.research.google.com/drive/1adJGbMC4VwWhiD31JNCRvXBWWno_dYxF?usp=sharing)
 - [ofwhpcparse.py](ofwhpcparse.py): Data parsing and metric calculation utilities
 - [data.json](data.json): JSON file produced from the raw xls submissions (used to accelerated data loading in the Interactive.ipynb notebook)
 - [submissions](submissions): Raw submissions (excel sheets, logs, input files, etc)
