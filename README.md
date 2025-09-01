@@ -12,7 +12,7 @@ A detailed description of the challenge is provided in the [introductory present
 The challenge focused on simulation of external flow over a static version of the DrivAer automotive model. The model consists of a full car geometry, with closed coolings and a complex underbody, without considering wheel rotation. A detailed description of the test case may be found in the repository[^DrivAerCase] of the HPC Technical Committee.
 
 ## Data Analysis
-Submissions were originally given in the form Excel files. These files were parsed with [python utilities](ofwhpcparse.py), and the results were visualized in a set of Jupyter notebooks.
+Submissions were originally given in the form Excel files. These files were parsed with [python utilities](OHCParser.py), and the results were visualized in a set of Jupyter notebooks.
 Several metrics of interest (time-to-solution, energy-to-solution, FVOPS, etc) were analyzed. See the HPC TC repository[^HPCTC] for a detailed description of the metrics.
 
 ## Repository Structure
@@ -25,7 +25,7 @@ Several metrics of interest (time-to-solution, energy-to-solution, FVOPS, etc) w
 - [SWTrack.ipynb](SWTrack.ipynb): Jupyter notebook used to analyse software track submissions
 - [IO.ipynb](IO.ipynb): Jupyter notebook used to analyse submissions of I/O optimizations
 - [Interactive.ipynb](Interactive.ipynb): Jupyter notebook providing an interactive plot for custom data analysis, [click for demonstration](https://colab.research.google.com/drive/1adJGbMC4VwWhiD31JNCRvXBWWno_dYxF?usp=sharing)
-- [ofwhpcparse.py](ofwhpcparse.py): Data parsing and metric calculation utilities
+- [OHCParser.py](OHCParser.py): Data parsing and metric calculation utilities
 - [data.json](data.json): JSON file produced from the raw xls submissions (used to accelerated data loading in the Interactive.ipynb notebook)
 - [submissions](submissions): Raw submissions (excel sheets, logs, input files, etc)
 - [presentations](presentations): Participant presentations
@@ -36,7 +36,7 @@ Several metrics of interest (time-to-solution, energy-to-solution, FVOPS, etc) w
 
 - If you're interested in the main conclusions and analysis presented in the workshop, please see [HW-track Summary.pdf](<HW-track Summary.pdf>) and [SW-track Summary.pdf](<SW-track Summary.pdf>), for the hardware and software tracks, respectively.
 
-- If you would like to dive deeper into the data analysis that was done as part of the workshop, please see the individual Jupyter notebooks in the main folder (best viewed from within VS code).
+- If you would like to dive deeper into the data analysis that was done as part of the workshop, please see the individual Jupyter notebooks in the main folder (best viewed from within VS code). The notebooks are known to work with python 3.12.
 
 - Finally, if you wish to conduct custom analysis of the data, it is recommended to use [Interactive.ipynb](Interactive.ipynb) (best viewed from within VS code).
 
