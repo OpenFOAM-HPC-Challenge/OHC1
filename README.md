@@ -12,7 +12,7 @@ A detailed description of the challenge is provided in the [introductory present
 The challenge focused on simulation of external flow over a static version of the DrivAer automotive model. The model consists of a full car geometry, with closed coolings and a complex underbody, without considering wheel rotation. A detailed description of the test case may be found in the repository[^DrivAerCase] of the HPC Technical Committee.
 
 ## Data Analysis
-Submissions were originally given in the form Excel files. These files were parsed with [python utilities](OHCParser.py), and the results were visualized in a set of Jupyter notebooks.
+Submissions were originally given in the form of Excel files. These files were parsed with [python utilities](OHCParser.py), and the results were visualized in a set of Jupyter notebooks.
 Several metrics of interest (time-to-solution, energy-to-solution, FVOPS, etc) were analyzed. See the HPC TC repository[^HPCTC] for a detailed description of the metrics.
 
 ## Repository Structure
@@ -40,9 +40,13 @@ Several metrics of interest (time-to-solution, energy-to-solution, FVOPS, etc) w
 
 - Finally, if you wish to conduct custom analysis of the data, it is recommended to use [Interactive.ipynb](Interactive.ipynb) (best viewed from within VS code).
 
+## License
+### Source Code
+The source code of the parser and the Jupyter notebooks is licensed under the MIT license.
+
 ## Questions/Comments
 
-If you have any questions regarding the data, or comments that may help us better prepare for OHC-2, please feel free to post an issue or contact us at hpc-tc-group@googlegroups.com.
+If you have any questions regarding the data, or comments that may help us better prepare for the next occasion of OHC, please feel free to post an issue or contact us at hpc-tc-group@googlegroups.com.
 
 
 [^DrivAerCase]: https://develop.openfoam.com/committees/hpc/-/tree/develop/incompressible/simpleFoam/occDrivAerStaticMesh
