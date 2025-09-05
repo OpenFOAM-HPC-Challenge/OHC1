@@ -44,6 +44,12 @@ Several metrics of interest (time-to-solution, energy-to-solution, FVOPS, etc) w
 ### Source Code
 The source code of the parser and the Jupyter notebooks is licensed under the MIT license.
 
+### Submissions Data
+All submissions data (folder "submissions") is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. For citation, we suggest to provide a link to this repository.
+
+### Presentations
+The presentations (folder "presentations") are not covered by any specific license. For further guidance, please reach out to the respective author.”
+
 ## Questions/Comments
 
 If you have any questions regarding the data, or comments that may help us better prepare for the next occasion of OHC, please feel free to post an issue or contact us at hpc-tc-group@googlegroups.com.
