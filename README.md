@@ -48,7 +48,7 @@ The source code of the parser and the Jupyter notebooks is licensed under the MI
 All submissions data (folder "submissions") is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. For citation, we suggest to provide a link to this repository.
 
 ### Presentations
-The presentations (folder "presentations") are not covered by any specific license. For further guidance, please reach out to the respective author.”
+The presentations (folder "presentations") are not covered by any specific license. For further guidance, please reach out to the respective author.
 
 ## Questions/Comments
 
