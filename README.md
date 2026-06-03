@@ -8,7 +8,8 @@ The challenge was aimed at evaluating the efficiency, scalability, and performan
   - **Hardware Track:** Participants simulated the case using standard (unmodified) OpenFOAM v2412, on any supported hardware.
   - **Software Track:** Participants could use custom solvers and code optimizations, provided the mesh and physical modeling correspond to the original setup.
 
-A detailed description of the challenge is provided in the [introductory presentation](Introduction.pdf).
+A detailed description of the challenge is provided in the [introductory presentation](Introduction.pdf), and in the [manuscript](
+https://arxiv.org/pdf/2603.27565).
 
 ## DrivAer Case
 The challenge focused on simulation of external flow over a static version of the DrivAer automotive model. The model consists of a full car geometry, with closed coolings and a complex underbody, without considering wheel rotation. A detailed description of the test case may be found in the repository[^DrivAerCase] of the HPC Technical Committee.
